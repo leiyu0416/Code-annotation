@@ -237,3 +237,9 @@ if __name__ == '__main__':
             save_dir = args.directory + '%s-epochs-%d-model-val-acc-%.3f-loss-%.6f.pt' \
                        % (args.model, epoch, val_acc, val_loss)
             torch.save(worker.model, save_dir)
+
+当我们需要制定配置文件路径的时候，我们会在命令的后面追加 -- config config / ResNet /resnet101.py来设置参数。
+## Results picture
+![image]
+
+补充命令的参数设置。
