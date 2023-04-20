@@ -240,8 +240,10 @@ if __name__ == '__main__':
 
 当我们需要制定配置文件路径的时候，我们会在命令的后面追加 -- config config / ResNet /resnet101.py来设置参数。
 ## Code-annotation
-![image]（https://github.com/leiyu0416/Code-annotation/blob/main/resnet101.png）
+![image](https://github.com/leiyu0416/Code-annotation/blob/main/picture/confic%20picture.jpg
+)
 
 补充命令的参数设置。
 ## Results picture
-![image](https://github.com/leiyu0416/Code-annotation/blob/main/picture/Parameter%20settings%20for%20supplementary%20commands.png)
+![image](https://github.com/leiyu0416/Code-annotation/blob/main/picture/Supplementary%20parameter%20images.jpg
+)
