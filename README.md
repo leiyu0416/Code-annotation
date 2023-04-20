@@ -244,4 +244,4 @@ if __name__ == '__main__':
 
 补充命令的参数设置。
 ## Results picture
-![image]（https://github.com/leiyu0416/Code-annotation/blob/main/resnet101.png）
+![image]（[https://github.com/leiyu0416/Code-annotation/blob/main/resnet101.png](https://github.com/leiyu0416/Code-annotation/blob/main/Parameter%20settings%20for%20supplementary%20commands.png)）
