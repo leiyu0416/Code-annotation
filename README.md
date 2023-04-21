@@ -245,4 +245,4 @@ if __name__ == '__main__':
 
 补充命令的参数设置。
 ## Results picture
-![image]https://raw.githubusercontent.com/leiyu0416/Code-annotation/main/picture/Supplementary%20parameter%20images.jpg)
+![image](https://raw.githubusercontent.com/leiyu0416/Code-annotation/main/picture/Supplementary%20parameter%20images.jpg)
