@@ -1,6 +1,6 @@
 # Code-annotation
 
-Before starting a Pytorch training project, we need to initialize some things.
+## Before starting a Pytorch training project, we need to initialize some things.
 
 Firstly, initialize the weights of the model.These values determine the importance of each input signal when transmitted to the next layer. During the training process, the model continuously adjusts its weights to better fit the data.
 
@@ -8,13 +8,18 @@ Secondly, initialize the bias of the model.During the training process, the mode
 
 Finally, initialize the batch normalization.Initializing the batch normalization layer can help the model converge faster.
 
-Basic steps for preparing optimization algorithms in PyTorch
+## Basic steps for preparing optimization algorithms in PyTorch
 
  1.Define the model and move it to the appropriate device (such as GPU).
+ 
  2.Select a loss function to calculate the difference between the model output and the target.
+ 
  3.Select an optimizer, such as torch. optim. SGD or torch. optim. Adam, and pass the model parameters to it.
+ 
  4.Define a learning rate scheduler for dynamically adjusting the learning rate.
+ 
  5.Loading dataset: When training the model, it is necessary to load the training and validation sets, and perform preprocessing, data augmentation, and other operations on the data.
+ 
  6.Defining a training cycle: When training a model, it is necessary to define a training cycle.
 
 ### Code-annotation
@@ -239,12 +244,10 @@ if __name__ == '__main__':
             torch.save(worker.model, save_dir)
 ```
 
-
-
 ## 当我们需要制定配置文件路径的时候，我们会在命令的后面追加 -- config config / ResNet /resnet101.py来设置参数。
-###Code-annotation
+### Results picture
 ![image](https://raw.githubusercontent.com/leiyu0416/Code-annotation/main/picture/confic%20picture.jpg)
 
-## 补充命令的参数设置。
+## 补充命令的参数设置,epochs 10;save_station 1;model "ResNet34".
 ### Results picture
 ![image](https://raw.githubusercontent.com/leiyu0416/Code-annotation/main/picture/Supplementary%20parameter%20images.jpg)
