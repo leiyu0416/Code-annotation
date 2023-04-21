@@ -244,10 +244,11 @@ if __name__ == '__main__':
             torch.save(worker.model, save_dir)
 ```
 
-## 当我们需要制定配置文件路径的时候，我们会在命令的后面追加 -- config config / ResNet /resnet101.py来设置参数。
+## When we need to specify the configuration file path, we will add - config config/ResNet/resnet101.py to the end of the command to set the parameters.
+Results picture.
 ### Results picture
 ![image](https://raw.githubusercontent.com/leiyu0416/Code-annotation/main/picture/confic%20picture.jpg)
 
-## 补充命令的参数设置,epochs 10;save_station 1;model "ResNet34".
+## Parameter settings for supplementary commands,epochs 10;save_station 1;model "ResNet34".
 ### Results picture
 ![image](https://raw.githubusercontent.com/leiyu0416/Code-annotation/main/picture/Supplementary%20parameter%20images.jpg)
